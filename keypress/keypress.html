@@ -1,0 +1,27 @@
+<script type="text/javascript">
+  RED.nodes.registerType('keypress', {
+    category: 'input',
+    color: '#eefdbf',
+    defaults: {
+      key: {value: ''}
+    },
+    inputs: 0,
+    outputs: 1,
+    icon: 'keypress.png',
+    label: function() {
+      return this.key ? ('keypress ' + this.key) : 'keypress';
+    }
+  });
+</script>
+
+<script type="text/x-red" data-template-name="keypress">
+  <div class="form-row">
+    <label for="node-input-key"><i class="icon-tag"></i> Key</label>
+    <input type="text" id="node-input-key" placeholder="Key">
+  </div>
+</script>
+
+<script type="text/x-red" data-help-name="keypress">
+  <p>A simple node that captures keys in terminal and sends them to flow.</p>
+  <p>Keys are captured when node receives message in terminal where node-red was started.</p>
+</script>
