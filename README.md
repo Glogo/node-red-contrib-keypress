@@ -16,6 +16,8 @@ sudo npm i -g node-red-contrib-keypress
 {
 	key: "up"
 }
+```
+```
 {
 	key: "a"
 }
