@@ -1,5 +1,5 @@
 # node-red-contrib-keypress
-A <a href="http://nodered.org" target="_new">Node-RED</a> node capturing keypress input in terminal
+A [Node-RED](http://nodered.org) node capturing keypress input in terminal
 
 ## Install
 Run the following command in your Node-RED user directory - typically `~/.node-red`
